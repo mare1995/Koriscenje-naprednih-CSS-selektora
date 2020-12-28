@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koriscenje naprednih css selektora</title>
+    <style>
+        #google{
+            color: green;
+        }
+
+        #link-group{
+            color: red;
+        }
+
+        .klasa1{
+            color:red;
+        }
+
+        .klasa2{
+            color:blue;
+        }
+
+        #par23:after{
+            content: "NEW";
+            color: yellow;
+        }
+
+        .p10:hover{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Main Heading</h1>
+    <p>Paragraph1</p>
+    <p>
+        <a id="google" href="https://www.google.com/">Google</a> 
+        <a id="google" href="https://www.google.com/doodles">Google Doodles</a> 
+        <a id="link-group" href="https://www.link-group.eu/">Go to Link Group</a>
+    </p>
+
+    <h2>Subheading</h2>
+
+    <div>
+        <p id="par23">Paragraph 2 </p>
+        <p id="par23">Paragraph 3 </p>
+    </div>
+
+    <h3>Sub subheading</h3>
+
+    <div>
+        <p class="klasa1">
+            Paragraph 4
+        </p>
+        <p class="klasa2">
+            Paragraph 5
+        </p>
+        <p class="klasa1">
+            Paragraph 6
+        </p>
+        <p>Paragraph 7</p>
+
+        <p>Paragraph 8</p>
+
+        <p>Paragraph 9</p>
+
+        <p class="p10">Paragraph 10</p>
+    </div>
+
+    
+
+</body>
+</html>
